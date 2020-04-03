@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Vibrant Color Picker</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="white-tint"></div>
+    <div id="main-container" align="center">
+        <p id="head-title">Vibrant Color Picker</p>
+        <label for="file-input" id="upload-title">
+          <div id="image-layout"><canvas id="image-source"></canvas></div>
+          CLICK HERE TO UPLOAD IMAGE
+        </label>
+        <input type="file" class="file-input-style" id="file-input" name="file-input">
+        <div id="result-color"></div>
+        <div class="input-container"><input class="input-color" id="input-color-hex" type="text" placeholder="HEX ACCENT COLOR" value="#87E16E"></div>
+        <div class="input-container"><input class="input-color" id="input-color-rgb" type="text" placeholder="RGB ACCENT COLOR" value="RGB(135, 225, 110)"></div>
+        <div class="input-container"><input class="input-color" id="input-color-rgba"type="text" placeholder="RGBA ACCENT COLOR" value="RGBA(135, 225, 110, 1)"></div>
+    </div>
+    <script src="assets/js/index.min.js"></script>
+</body>
+</html>
